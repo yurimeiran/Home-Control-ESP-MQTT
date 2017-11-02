@@ -35,8 +35,8 @@ function onFailure(invocationContext, errorCode, errorMessage) {
         // connect the client using secure login
         client.connect({
           useSSL: true,
-          userName: "kfpinzgj",         //username from  CloudMQTT.com
-          password: "17XzlVrNFJEn",     //CloudMQTT.com given password
+          userName: "dfdsfsfsdf",         //username from  CloudMQTT.com
+          password: "5435gdft345tt",     //CloudMQTT.com given password
           onSuccess: onConnect,
           onFailure: onFailure
 
