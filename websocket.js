@@ -24,7 +24,7 @@ function onFailure(invocationContext, errorCode, errorMessage) {
           errDiv.style.display = "block";
         }
 
-        var clientId = "esp8266-5c:cf:7f:85:e2:de-2a";
+        var clientId = "*****************";
         // Create a client instance
         var client = new Paho.MQTT.Client("m12.cloudmqtt.com", 33882, clientId);
 
@@ -35,8 +35,8 @@ function onFailure(invocationContext, errorCode, errorMessage) {
         // connect the client using secure login
         client.connect({
           useSSL: true,
-          userName: "dfdsfsfsdf",         //username from  CloudMQTT.com
-          password: "5435gdft345tt",     //CloudMQTT.com given password
+          userName: "*********",         //username from  CloudMQTT.com
+          password: "**********",     //CloudMQTT.com given password
           onSuccess: onConnect,
           onFailure: onFailure
 
